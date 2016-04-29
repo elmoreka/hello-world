@@ -1,0 +1,746 @@
+2016-04-27 20:38:02,341 INFO     errbot.specific_plugin_manager storage search paths set([u'/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage'])
+2016-04-27 20:38:02,352 INFO     errbot.specific_plugin_manager Found those plugings available:
+2016-04-27 20:38:02,355 INFO     errbot.specific_plugin_manager 	    Memory  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/memory.py)
+2016-04-27 20:38:02,360 INFO     errbot.specific_plugin_manager 	     Shelf  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/shelf.py)
+2016-04-27 20:38:02,362 INFO     errbot.main               Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2016-04-27 20:38:02,369 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-27 20:38:02,547 INFO     errbot.specific_plugin_manager backends search paths set([u'/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends'])
+2016-04-27 20:38:02,576 INFO     errbot.specific_plugin_manager Found those plugings available:
+2016-04-27 20:38:02,578 INFO     errbot.specific_plugin_manager 	      Null  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/null.py)
+2016-04-27 20:38:02,582 INFO     errbot.specific_plugin_manager 	      XMPP  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/xmpp.py)
+2016-04-27 20:38:02,585 INFO     errbot.specific_plugin_manager 	   Graphic  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/graphic.py)
+2016-04-27 20:38:02,588 INFO     errbot.specific_plugin_manager 	  Telegram  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/telegram_messenger.py)
+2016-04-27 20:38:02,590 INFO     errbot.specific_plugin_manager 	   Hipchat  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/hipchat.py)
+2016-04-27 20:38:02,594 INFO     errbot.specific_plugin_manager 	      Test  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/test.py)
+2016-04-27 20:38:02,596 INFO     errbot.specific_plugin_manager 	      Text  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/text.py)
+2016-04-27 20:38:02,598 INFO     errbot.specific_plugin_manager 	       IRC  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/irc.py)
+2016-04-27 20:38:02,601 INFO     errbot.specific_plugin_manager 	     Slack  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/slack.py)
+2016-04-27 20:38:02,603 INFO     errbot.main               Found Backend plugin: 'Text'
+						Description: This is the text backend for Err.
+2016-04-27 20:38:02,611 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/null.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-27 20:38:02,616 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-27 20:38:02,619 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-27 20:38:02,625 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-27 20:38:02,630 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-27 20:38:02,636 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/test.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-27 20:38:02,644 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-27 20:38:02,649 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/slack.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-27 20:38:03,474 INFO     errbot.storage            Init storage of Help
+2016-04-27 20:38:03,851 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2016-04-27 20:38:03,854 INFO     errbot.storage            Init storage of Webserver
+2016-04-27 20:38:03,862 INFO     errbot.storage            Init storage of ChatRoom
+2016-04-27 20:38:03,869 INFO     errbot.storage            Init storage of VersionChecker
+2016-04-27 20:38:03,874 INFO     errbot.storage            Init storage of Utils
+2016-04-27 20:38:03,900 INFO     errbot.storage            Init storage of Health
+2016-04-27 20:38:03,906 INFO     errbot.storage            Init storage of ACLS
+2016-04-27 20:38:03,914 INFO     errbot.storage            Init storage of Backup
+2016-04-27 20:38:03,920 INFO     errbot.storage            Init storage of Plugins
+2016-04-27 20:38:03,926 INFO     errbot.errBot             Activate internal commands
+2016-04-27 20:38:03,928 INFO     errbot.plugin_manager     Activating all the plugins...
+2016-04-27 20:38:03,932 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2016-04-27 20:38:03,935 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-27 20:38:03,952 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2016-04-27 20:38:03,955 INFO     errbot.plugin_manager     Activate plugin: Utils
+2016-04-27 20:38:03,962 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-27 20:38:03,984 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2016-04-27 20:38:03,988 INFO     errbot.plugin_manager     Activate plugin: Health
+2016-04-27 20:38:03,994 INFO     errbot.plugin_manager     Activating Health with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-27 20:38:04,002 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2016-04-27 20:38:04,006 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2016-04-27 20:38:04,011 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-27 20:38:04,019 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2016-04-27 20:38:04,023 INFO     errbot.plugin_manager     Activate plugin: Help
+2016-04-27 20:38:04,028 INFO     errbot.plugin_manager     Activating Help with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-27 20:38:04,035 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2016-04-27 20:38:04,039 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2016-04-27 20:38:04,043 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-27 20:38:04,052 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2016-04-27 20:38:04,056 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2016-04-27 20:38:04,060 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-27 20:38:04,065 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2016-04-27 20:38:04,067 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2016-04-27 20:38:04,070 INFO     errbot.core_plugins.wsview Webhook routing echo
+2016-04-27 20:38:04,075 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2016-04-27 20:38:04,080 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-27 20:38:04,087 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2016-04-27 20:38:04,094 INFO     errbot.plugin_manager     Activate plugin: Backup
+2016-04-27 20:38:04,098 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-27 20:38:04,106 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2016-04-27 20:38:04,112 INFO     errbot.errBot             
+2016-04-27 20:38:04,114 INFO     errbot.errBot             Notifying connection to all the plugins...
+2016-04-27 20:38:04,117 INFO     errbot.plugins.ChatRoom   Callback_connect
+2016-04-27 20:38:04,118 INFO     errbot.plugins.ChatRoom   Joining room err@conference.server.tld with username Err
+2016-04-27 20:38:04,120 INFO     errbot.errBot             Plugin activation done.
+2016-04-27 20:38:14,582 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Health:status
+2016-04-27 20:38:14,584 INFO     errbot.plugins.ACLS       Check if status is admin only command.
+2016-04-27 20:38:14,587 INFO     errbot.errBot             Processing command 'status' with parameters '' from gbin@localhost
+2016-04-27 20:41:42,696 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Health:status
+2016-04-27 20:41:42,701 INFO     errbot.plugins.ACLS       Check if status is admin only command.
+2016-04-27 20:41:42,704 INFO     errbot.errBot             Processing command 'status' with parameters '' from gbin@localhost
+2016-04-28 18:24:41,456 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Health:status
+2016-04-28 18:24:41,458 INFO     errbot.plugins.ACLS       Check if status is admin only command.
+2016-04-28 18:24:41,460 INFO     errbot.errBot             Processing command 'status' with parameters '' from gbin@localhost
+2016-04-28 18:31:11,616 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Plugins:repos
+2016-04-28 18:31:11,619 INFO     errbot.plugins.ACLS       Check if repos is admin only command.
+2016-04-28 18:31:11,621 INFO     errbot.errBot             Processing command 'repos' with parameters '' from gbin@localhost
+2016-04-28 18:38:06,683 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Plugins:repos
+2016-04-28 18:38:06,686 INFO     errbot.plugins.ACLS       Check if repos is admin only command.
+2016-04-28 18:38:06,690 INFO     errbot.errBot             Processing command 'repos' with parameters 'intall hellowo[D[D[Dorld.plug' from gbin@localhost
+2016-04-28 18:38:59,859 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Health:status
+2016-04-28 18:38:59,862 INFO     errbot.plugins.ACLS       Check if status is admin only command.
+2016-04-28 18:38:59,865 INFO     errbot.errBot             Processing command 'status' with parameters '' from gbin@localhost
+2016-04-28 18:42:06,730 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Help:help
+2016-04-28 18:42:06,733 INFO     errbot.plugins.ACLS       Check if help is admin only command.
+2016-04-28 18:42:06,736 INFO     errbot.errBot             Processing command 'help' with parameters 'full' from gbin@localhost
+2016-04-28 18:42:22,748 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Help:help
+2016-04-28 18:42:22,751 INFO     errbot.plugins.ACLS       Check if help is admin only command.
+2016-04-28 18:42:22,756 INFO     errbot.errBot             Processing command 'help' with parameters '' from gbin@localhost
+2016-04-28 18:47:31,812 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Plugins:repos_update
+2016-04-28 18:47:31,815 INFO     errbot.plugins.ACLS       Check if repos_update is admin only command.
+2016-04-28 18:47:31,819 INFO     errbot.errBot             Processing command 'repos_update' with parameters 'all' from gbin@localhost
+2016-04-28 18:48:16,348 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Plugins:repos_update
+2016-04-28 18:48:16,351 INFO     errbot.plugins.ACLS       Check if repos_update is admin only command.
+2016-04-28 18:48:16,356 INFO     errbot.errBot             Processing command 'repos_update' with parameters 'all' from gbin@localhost
+2016-04-28 18:50:49,818 INFO     errbot.errBot             Disconnect callback, deactivating all the plugins.
+2016-04-28 18:50:49,927 INFO     errbot.plugin_manager     Shutdown.
+2016-04-28 18:50:49,935 INFO     errbot.plugin_manager     Bye.
+2016-04-28 18:50:49,938 INFO     errbot.err                Process exiting
+2016-04-28 18:53:18,105 INFO     errbot.specific_plugin_manager storage search paths set([u'/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage'])
+2016-04-28 18:53:18,121 INFO     errbot.specific_plugin_manager Found those plugings available:
+2016-04-28 18:53:18,123 INFO     errbot.specific_plugin_manager 	    Memory  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/memory.py)
+2016-04-28 18:53:18,129 INFO     errbot.specific_plugin_manager 	     Shelf  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/shelf.py)
+2016-04-28 18:53:18,133 INFO     errbot.main               Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2016-04-28 18:53:18,138 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 18:53:18,364 INFO     errbot.specific_plugin_manager backends search paths set([u'/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends'])
+2016-04-28 18:53:18,410 INFO     errbot.specific_plugin_manager Found those plugings available:
+2016-04-28 18:53:18,412 INFO     errbot.specific_plugin_manager 	      Null  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/null.py)
+2016-04-28 18:53:18,417 INFO     errbot.specific_plugin_manager 	      XMPP  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/xmpp.py)
+2016-04-28 18:53:18,419 INFO     errbot.specific_plugin_manager 	   Graphic  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/graphic.py)
+2016-04-28 18:53:18,421 INFO     errbot.specific_plugin_manager 	  Telegram  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/telegram_messenger.py)
+2016-04-28 18:53:18,423 INFO     errbot.specific_plugin_manager 	   Hipchat  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/hipchat.py)
+2016-04-28 18:53:18,426 INFO     errbot.specific_plugin_manager 	      Test  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/test.py)
+2016-04-28 18:53:18,429 INFO     errbot.specific_plugin_manager 	      Text  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/text.py)
+2016-04-28 18:53:18,431 INFO     errbot.specific_plugin_manager 	       IRC  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/irc.py)
+2016-04-28 18:53:18,433 INFO     errbot.specific_plugin_manager 	     Slack  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/slack.py)
+2016-04-28 18:53:18,435 INFO     errbot.main               Found Backend plugin: 'Text'
+						Description: This is the text backend for Err.
+2016-04-28 18:53:18,442 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/null.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 18:53:18,448 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 18:53:18,452 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 18:53:18,459 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 18:53:18,465 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 18:53:18,470 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/test.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 18:53:18,479 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 18:53:18,484 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/slack.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 18:53:20,061 INFO     errbot.storage            Init storage of Help
+2016-04-28 18:53:20,548 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2016-04-28 18:53:20,554 INFO     errbot.storage            Init storage of Webserver
+2016-04-28 18:53:20,564 INFO     errbot.storage            Init storage of ChatRoom
+2016-04-28 18:53:20,570 INFO     errbot.storage            Init storage of VersionChecker
+2016-04-28 18:53:20,576 INFO     errbot.storage            Init storage of Utils
+2016-04-28 18:53:20,603 INFO     errbot.storage            Init storage of Health
+2016-04-28 18:53:20,610 INFO     errbot.storage            Init storage of ACLS
+2016-04-28 18:53:20,618 INFO     errbot.storage            Init storage of Backup
+2016-04-28 18:53:20,623 INFO     errbot.storage            Init storage of Plugins
+2016-04-28 18:53:20,630 INFO     errbot.errBot             Activate internal commands
+2016-04-28 18:53:20,632 INFO     errbot.plugin_manager     Activating all the plugins...
+2016-04-28 18:53:20,634 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2016-04-28 18:53:20,636 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 18:53:20,672 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2016-04-28 18:53:20,676 INFO     errbot.plugin_manager     Activate plugin: Utils
+2016-04-28 18:53:20,682 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 18:53:20,690 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2016-04-28 18:53:20,696 INFO     errbot.plugin_manager     Activate plugin: Health
+2016-04-28 18:53:20,699 INFO     errbot.plugin_manager     Activating Health with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 18:53:20,704 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2016-04-28 18:53:20,707 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2016-04-28 18:53:20,714 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 18:53:20,720 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2016-04-28 18:53:20,724 INFO     errbot.plugin_manager     Activate plugin: Help
+2016-04-28 18:53:20,728 INFO     errbot.plugin_manager     Activating Help with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 18:53:20,733 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2016-04-28 18:53:20,737 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2016-04-28 18:53:20,738 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 18:53:20,746 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2016-04-28 18:53:20,751 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2016-04-28 18:53:20,754 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 18:53:20,758 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2016-04-28 18:53:20,763 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2016-04-28 18:53:20,765 INFO     errbot.core_plugins.wsview Webhook routing echo
+2016-04-28 18:53:20,769 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2016-04-28 18:53:20,773 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 18:53:20,781 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2016-04-28 18:53:20,787 INFO     errbot.plugin_manager     Activate plugin: Backup
+2016-04-28 18:53:20,790 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 18:53:20,798 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2016-04-28 18:53:20,803 INFO     errbot.errBot             
+2016-04-28 18:53:20,805 INFO     errbot.errBot             Notifying connection to all the plugins...
+2016-04-28 18:53:20,811 INFO     errbot.plugins.ChatRoom   Callback_connect
+2016-04-28 18:53:20,814 INFO     errbot.plugins.ChatRoom   Joining room err@conference.server.tld with username Err
+2016-04-28 18:53:20,817 INFO     errbot.errBot             Plugin activation done.
+2016-04-28 18:53:31,889 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Health:status
+2016-04-28 18:53:31,892 INFO     errbot.plugins.ACLS       Check if status is admin only command.
+2016-04-28 18:53:31,896 INFO     errbot.errBot             Processing command 'status' with parameters '' from gbin@localhost
+2016-04-28 19:01:04,634 INFO     errbot.errBot             Disconnect callback, deactivating all the plugins.
+2016-04-28 19:01:04,686 INFO     errbot.plugin_manager     Shutdown.
+2016-04-28 19:01:04,688 INFO     errbot.plugin_manager     Bye.
+2016-04-28 19:01:04,694 INFO     errbot.err                Process exiting
+2016-04-28 19:01:12,536 INFO     errbot.specific_plugin_manager storage search paths set([u'/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage'])
+2016-04-28 19:01:12,546 INFO     errbot.specific_plugin_manager Found those plugings available:
+2016-04-28 19:01:12,548 INFO     errbot.specific_plugin_manager 	    Memory  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/memory.py)
+2016-04-28 19:01:12,552 INFO     errbot.specific_plugin_manager 	     Shelf  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/shelf.py)
+2016-04-28 19:01:12,556 INFO     errbot.main               Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2016-04-28 19:01:12,564 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:01:12,603 INFO     errbot.specific_plugin_manager backends search paths set([u'/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends'])
+2016-04-28 19:01:12,625 INFO     errbot.specific_plugin_manager Found those plugings available:
+2016-04-28 19:01:12,631 INFO     errbot.specific_plugin_manager 	      Null  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/null.py)
+2016-04-28 19:01:12,634 INFO     errbot.specific_plugin_manager 	      XMPP  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/xmpp.py)
+2016-04-28 19:01:12,637 INFO     errbot.specific_plugin_manager 	   Graphic  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/graphic.py)
+2016-04-28 19:01:12,638 INFO     errbot.specific_plugin_manager 	  Telegram  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/telegram_messenger.py)
+2016-04-28 19:01:12,640 INFO     errbot.specific_plugin_manager 	   Hipchat  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/hipchat.py)
+2016-04-28 19:01:12,641 INFO     errbot.specific_plugin_manager 	      Test  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/test.py)
+2016-04-28 19:01:12,645 INFO     errbot.specific_plugin_manager 	      Text  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/text.py)
+2016-04-28 19:01:12,651 INFO     errbot.specific_plugin_manager 	       IRC  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/irc.py)
+2016-04-28 19:01:12,653 INFO     errbot.specific_plugin_manager 	     Slack  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/slack.py)
+2016-04-28 19:01:12,656 INFO     errbot.main               Found Backend plugin: 'Text'
+						Description: This is the text backend for Err.
+2016-04-28 19:01:12,663 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/null.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:01:12,668 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:01:12,672 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:01:12,679 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:01:12,683 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:01:12,686 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/test.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:01:12,693 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:01:12,700 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/slack.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:01:13,370 INFO     errbot.storage            Init storage of Help
+2016-04-28 19:01:13,573 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2016-04-28 19:01:13,577 INFO     errbot.storage            Init storage of Webserver
+2016-04-28 19:01:13,584 INFO     errbot.storage            Init storage of ChatRoom
+2016-04-28 19:01:13,590 INFO     errbot.storage            Init storage of VersionChecker
+2016-04-28 19:01:13,599 INFO     errbot.storage            Init storage of Utils
+2016-04-28 19:01:13,622 INFO     errbot.storage            Init storage of Health
+2016-04-28 19:01:13,631 INFO     errbot.storage            Init storage of ACLS
+2016-04-28 19:01:13,637 INFO     errbot.storage            Init storage of Backup
+2016-04-28 19:01:13,642 INFO     errbot.storage            Init storage of Plugins
+2016-04-28 19:01:13,650 INFO     errbot.errBot             Activate internal commands
+2016-04-28 19:01:13,653 INFO     errbot.plugin_manager     Activating all the plugins...
+2016-04-28 19:01:13,655 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2016-04-28 19:01:13,658 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:01:13,671 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2016-04-28 19:01:13,680 INFO     errbot.plugin_manager     Activate plugin: Utils
+2016-04-28 19:01:13,683 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:01:13,701 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2016-04-28 19:01:13,706 INFO     errbot.plugin_manager     Activate plugin: Health
+2016-04-28 19:01:13,712 INFO     errbot.plugin_manager     Activating Health with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:01:13,720 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2016-04-28 19:01:13,723 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2016-04-28 19:01:13,726 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:01:13,736 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2016-04-28 19:01:13,739 INFO     errbot.plugin_manager     Activate plugin: Help
+2016-04-28 19:01:13,741 INFO     errbot.plugin_manager     Activating Help with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:01:13,749 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2016-04-28 19:01:13,753 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2016-04-28 19:01:13,756 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:01:13,766 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2016-04-28 19:01:13,769 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2016-04-28 19:01:13,772 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:01:13,776 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2016-04-28 19:01:13,781 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2016-04-28 19:01:13,785 INFO     errbot.core_plugins.wsview Webhook routing echo
+2016-04-28 19:01:13,789 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2016-04-28 19:01:13,792 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:01:13,803 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2016-04-28 19:01:13,806 INFO     errbot.plugin_manager     Activate plugin: Backup
+2016-04-28 19:01:13,816 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:01:13,822 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2016-04-28 19:01:13,825 INFO     errbot.errBot             
+2016-04-28 19:01:13,829 INFO     errbot.errBot             Notifying connection to all the plugins...
+2016-04-28 19:01:13,833 INFO     errbot.plugins.ChatRoom   Callback_connect
+2016-04-28 19:01:13,835 INFO     errbot.plugins.ChatRoom   Joining room err@conference.server.tld with username Err
+2016-04-28 19:01:13,837 INFO     errbot.errBot             Plugin activation done.
+2016-04-28 19:01:20,280 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Health:status
+2016-04-28 19:01:20,282 INFO     errbot.plugins.ACLS       Check if status is admin only command.
+2016-04-28 19:01:20,285 INFO     errbot.errBot             Processing command 'status' with parameters '' from gbin@localhost
+2016-04-28 19:25:25,066 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Plugins:repos
+2016-04-28 19:25:25,070 INFO     errbot.plugins.ACLS       Check if repos is admin only command.
+2016-04-28 19:25:25,072 INFO     errbot.errBot             Processing command 'repos' with parameters 'updat[D[De all' from gbin@localhost
+2016-04-28 19:28:19,138 INFO     errbot.errBot             Disconnect callback, deactivating all the plugins.
+2016-04-28 19:28:19,178 INFO     errbot.plugin_manager     Shutdown.
+2016-04-28 19:28:19,181 INFO     errbot.plugin_manager     Bye.
+2016-04-28 19:28:19,184 INFO     errbot.err                Process exiting
+2016-04-28 19:36:25,435 INFO     errbot.specific_plugin_manager storage search paths set([u'/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage'])
+2016-04-28 19:36:25,445 INFO     errbot.specific_plugin_manager Found those plugings available:
+2016-04-28 19:36:25,447 INFO     errbot.specific_plugin_manager 	    Memory  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/memory.py)
+2016-04-28 19:36:25,451 INFO     errbot.specific_plugin_manager 	     Shelf  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/shelf.py)
+2016-04-28 19:36:25,454 INFO     errbot.main               Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2016-04-28 19:36:25,460 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:36:25,500 INFO     errbot.specific_plugin_manager backends search paths set([u'/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends'])
+2016-04-28 19:36:25,526 INFO     errbot.specific_plugin_manager Found those plugings available:
+2016-04-28 19:36:25,530 INFO     errbot.specific_plugin_manager 	      Null  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/null.py)
+2016-04-28 19:36:25,534 INFO     errbot.specific_plugin_manager 	      XMPP  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/xmpp.py)
+2016-04-28 19:36:25,537 INFO     errbot.specific_plugin_manager 	   Graphic  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/graphic.py)
+2016-04-28 19:36:25,541 INFO     errbot.specific_plugin_manager 	  Telegram  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/telegram_messenger.py)
+2016-04-28 19:36:25,546 INFO     errbot.specific_plugin_manager 	   Hipchat  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/hipchat.py)
+2016-04-28 19:36:25,547 INFO     errbot.specific_plugin_manager 	      Test  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/test.py)
+2016-04-28 19:36:25,558 INFO     errbot.specific_plugin_manager 	      Text  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/text.py)
+2016-04-28 19:36:25,564 INFO     errbot.specific_plugin_manager 	       IRC  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/irc.py)
+2016-04-28 19:36:25,567 INFO     errbot.specific_plugin_manager 	     Slack  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/slack.py)
+2016-04-28 19:36:25,571 INFO     errbot.main               Found Backend plugin: 'Text'
+						Description: This is the text backend for Err.
+2016-04-28 19:36:25,578 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/null.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:36:25,583 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:36:25,587 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:36:25,594 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:36:25,597 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:36:25,603 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/test.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:36:25,613 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:36:25,617 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/slack.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 19:36:26,306 INFO     errbot.storage            Init storage of Help
+2016-04-28 19:36:26,511 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2016-04-28 19:36:26,514 INFO     errbot.storage            Init storage of Webserver
+2016-04-28 19:36:26,521 INFO     errbot.storage            Init storage of ChatRoom
+2016-04-28 19:36:26,530 INFO     errbot.storage            Init storage of VersionChecker
+2016-04-28 19:36:26,534 INFO     errbot.storage            Init storage of Utils
+2016-04-28 19:36:26,561 INFO     errbot.storage            Init storage of Health
+2016-04-28 19:36:26,566 INFO     errbot.storage            Init storage of ACLS
+2016-04-28 19:36:26,576 INFO     errbot.storage            Init storage of Backup
+2016-04-28 19:36:26,582 INFO     errbot.storage            Init storage of Plugins
+2016-04-28 19:36:26,587 INFO     errbot.errBot             Activate internal commands
+2016-04-28 19:36:26,593 INFO     errbot.plugin_manager     Activating all the plugins...
+2016-04-28 19:36:26,596 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2016-04-28 19:36:26,598 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:36:26,612 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2016-04-28 19:36:26,618 INFO     errbot.plugin_manager     Activate plugin: Utils
+2016-04-28 19:36:26,628 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:36:26,646 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2016-04-28 19:36:26,651 INFO     errbot.plugin_manager     Activate plugin: Health
+2016-04-28 19:36:26,658 INFO     errbot.plugin_manager     Activating Health with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:36:26,666 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2016-04-28 19:36:26,670 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2016-04-28 19:36:26,676 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:36:26,682 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2016-04-28 19:36:26,685 INFO     errbot.plugin_manager     Activate plugin: Help
+2016-04-28 19:36:26,692 INFO     errbot.plugin_manager     Activating Help with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:36:26,700 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2016-04-28 19:36:26,704 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2016-04-28 19:36:26,710 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:36:26,716 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2016-04-28 19:36:26,719 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2016-04-28 19:36:26,728 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:36:26,733 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2016-04-28 19:36:26,737 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2016-04-28 19:36:26,742 INFO     errbot.core_plugins.wsview Webhook routing echo
+2016-04-28 19:36:26,746 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2016-04-28 19:36:26,752 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:36:26,763 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2016-04-28 19:36:26,767 INFO     errbot.plugin_manager     Activate plugin: Backup
+2016-04-28 19:36:26,771 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:36:26,781 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2016-04-28 19:36:26,784 INFO     errbot.errBot             
+2016-04-28 19:36:26,787 INFO     errbot.errBot             Notifying connection to all the plugins...
+2016-04-28 19:36:26,791 INFO     errbot.plugins.ChatRoom   Callback_connect
+2016-04-28 19:36:26,794 INFO     errbot.plugins.ChatRoom   Joining room err@conference.server.tld with username Err
+2016-04-28 19:36:26,797 INFO     errbot.errBot             Plugin activation done.
+2016-04-28 19:36:32,381 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Utils:whoami
+2016-04-28 19:36:32,384 INFO     errbot.plugins.ACLS       Check if whoami is admin only command.
+2016-04-28 19:36:32,386 INFO     errbot.errBot             Processing command 'whoami' with parameters '' from gbin@localhost
+2016-04-28 19:42:17,093 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Plugins:repos_install
+2016-04-28 19:42:17,096 INFO     errbot.plugins.ACLS       Check if repos_install is admin only command.
+2016-04-28 19:42:17,099 INFO     errbot.errBot             Processing command 'repos_install' with parameters 'err-time' from gbin@localhost
+2016-04-28 19:42:17,204 INFO     errbot.repo_manager       No repo index, creating it.
+2016-04-28 19:42:17,248 INFO     errbot.repo_manager       Index is too old, update it.
+2016-04-28 19:42:17,539 ERROR    errbot.repo_manager       Could not update from source https://repos.errbot.io/repos.json, keep the index as it is.
+Traceback (most recent call last):
+  File "/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/repo_manager.py", line 107, in index_update
+    src_file = urlopen(url=source, timeout=10)
+  File "/usr/lib/python2.7/urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1222, in https_open
+    return self.do_open(httplib.HTTPSConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 8] _ssl.c:510: EOF occurred in violation of protocol>
+2016-04-28 19:44:21,405 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Plugins:repos_install
+2016-04-28 19:44:21,410 INFO     errbot.plugins.ACLS       Check if repos_install is admin only command.
+2016-04-28 19:44:21,413 INFO     errbot.errBot             Processing command 'repos_install' with parameters 'https://github[D[D[D[D[Cb,[D.com/gbin/err-time' from gbin@localhost
+2016-04-28 19:44:21,467 INFO     errbot.repo_manager       Index is too old, update it.
+2016-04-28 19:44:21,561 ERROR    errbot.repo_manager       Could not update from source https://repos.errbot.io/repos.json, keep the index as it is.
+Traceback (most recent call last):
+  File "/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/repo_manager.py", line 107, in index_update
+    src_file = urlopen(url=source, timeout=10)
+  File "/usr/lib/python2.7/urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1222, in https_open
+    return self.do_open(httplib.HTTPSConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 8] _ssl.c:510: EOF occurred in violation of protocol>
+2016-04-28 19:46:00,554 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Plugins:repos_install
+2016-04-28 19:46:00,557 INFO     errbot.plugins.ACLS       Check if repos_install is admin only command.
+2016-04-28 19:46:00,560 INFO     errbot.errBot             Processing command 'repos_install' with parameters 'https://github.com/gbin/err-time' from gbin@localhost
+2016-04-28 19:46:00,674 INFO     errbot.repo_manager       Index is too old, update it.
+2016-04-28 19:46:00,746 ERROR    errbot.repo_manager       Could not update from source https://repos.errbot.io/repos.json, keep the index as it is.
+Traceback (most recent call last):
+  File "/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/repo_manager.py", line 107, in index_update
+    src_file = urlopen(url=source, timeout=10)
+  File "/usr/lib/python2.7/urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1222, in https_open
+    return self.do_open(httplib.HTTPSConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 8] _ssl.c:510: EOF occurred in violation of protocol>
+2016-04-28 19:46:02,269 ERROR    yapsy                     Unable to import plugin: /home/vagrant/code/errbot/project/HelloWorld/error/plugins/gbin/err-time/timeBot
+Traceback (most recent call last):
+  File "/home/vagrant/code/errbot/local/lib/python2.7/site-packages/yapsy/PluginManager.py", line 488, in loadPlugins
+    candidate_module = imp.load_module(plugin_module_name,plugin_file,candidate_filepath+".py",("py","r",imp.PY_SOURCE))
+  File "/home/vagrant/code/errbot/project/HelloWorld/error/plugins/gbin/err-time/timeBot.py", line 1, in <module>
+    import datetime, pytz
+ImportError: No module named pytz
+2016-04-28 19:46:02,295 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2016-04-28 19:46:02,465 INFO     errbot.plugin_manager     Activating all the plugins...
+2016-04-28 19:46:02,472 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2016-04-28 19:46:02,476 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:46:02,483 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2016-04-28 19:46:02,487 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2016-04-28 19:46:02,491 INFO     errbot.core_plugins.wsview Webhook routing echo
+2016-04-28 19:47:19,659 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Health:uptime
+2016-04-28 19:47:19,661 INFO     errbot.plugins.ACLS       Check if uptime is admin only command.
+2016-04-28 19:47:19,664 INFO     errbot.errBot             Processing command 'uptime' with parameters 'charlotte' from gbin@localhost
+2016-04-28 19:48:04,219 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Health:status
+2016-04-28 19:48:04,222 INFO     errbot.plugins.ACLS       Check if status is admin only command.
+2016-04-28 19:48:04,225 INFO     errbot.errBot             Processing command 'status' with parameters '' from gbin@localhost
+2016-04-28 19:55:50,519 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Plugins:repos_install
+2016-04-28 19:55:50,524 INFO     errbot.plugins.ACLS       Check if repos_install is admin only command.
+2016-04-28 19:55:50,528 INFO     errbot.errBot             Processing command 'repos_install' with parameters 'https://github.com/sijis/err-kudos.git' from gbin@localhost
+2016-04-28 19:55:50,619 INFO     errbot.repo_manager       Index is too old, update it.
+2016-04-28 19:55:50,733 ERROR    errbot.repo_manager       Could not update from source https://repos.errbot.io/repos.json, keep the index as it is.
+Traceback (most recent call last):
+  File "/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/repo_manager.py", line 107, in index_update
+    src_file = urlopen(url=source, timeout=10)
+  File "/usr/lib/python2.7/urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1222, in https_open
+    return self.do_open(httplib.HTTPSConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 8] _ssl.c:510: EOF occurred in violation of protocol>
+2016-04-28 19:55:52,412 INFO     errbot.storage            Init storage of Kudos
+2016-04-28 19:55:52,423 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2016-04-28 19:55:52,509 INFO     errbot.plugin_manager     Activating all the plugins...
+2016-04-28 19:55:52,512 INFO     errbot.plugin_manager     Activate plugin: Kudos
+2016-04-28 19:55:52,516 INFO     errbot.plugin_manager     Activating Kudos with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:55:52,530 INFO     errbot.core_plugins.wsview Checking Kudos for webhooks
+2016-04-28 19:55:52,536 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2016-04-28 19:55:52,538 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 19:55:52,544 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2016-04-28 19:55:52,547 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2016-04-28 19:55:52,550 INFO     errbot.core_plugins.wsview Webhook routing echo
+2016-04-28 19:56:34,902 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Kudos:give_kudos
+2016-04-28 19:56:34,905 INFO     errbot.plugins.ACLS       Check if give_kudos is admin only command.
+2016-04-28 19:56:34,907 INFO     errbot.errBot             Processing command 'give_kudos' with parameters 'err-chatbot++' from gbin@localhost
+2016-04-28 19:56:35,246 WARNING  errbot.backends.base       /home/vagrant/code/errbot/project/HelloWorld/error/plugins/sijis/err-kudos/kudos.py:38 : msg.type is deprecated and will be removed soon ! Use msg.is_direct or msg.is_group.
+2016-04-28 19:56:35,250 WARNING  errbot.plugins.Kudos      send message_type is DEPRECATED. Either pass a user identifier or a room to send.
+2016-04-28 19:56:54,332 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Kudos:kudos
+2016-04-28 19:56:54,334 INFO     errbot.plugins.ACLS       Check if kudos is admin only command.
+2016-04-28 19:56:54,337 INFO     errbot.errBot             Processing command 'kudos' with parameters 'err-chatbot' from gbin@localhost
+2016-04-28 19:56:54,390 WARNING  errbot.backends.base       /home/vagrant/code/errbot/project/HelloWorld/error/plugins/sijis/err-kudos/kudos.py:109 : msg.type is deprecated and will be removed soon ! Use msg.is_direct or msg.is_group.
+2016-04-28 19:56:54,394 WARNING  errbot.plugins.Kudos      send message_type is DEPRECATED. Either pass a user identifier or a room to send.
+2016-04-28 19:57:05,281 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Kudos:give_kudos
+2016-04-28 19:57:05,284 INFO     errbot.plugins.ACLS       Check if give_kudos is admin only command.
+2016-04-28 19:57:05,286 INFO     errbot.errBot             Processing command 'give_kudos' with parameters 'err-chatbot++' from gbin@localhost
+2016-04-28 19:57:05,293 WARNING  errbot.backends.base       /home/vagrant/code/errbot/project/HelloWorld/error/plugins/sijis/err-kudos/kudos.py:38 : msg.type is deprecated and will be removed soon ! Use msg.is_direct or msg.is_group.
+2016-04-28 19:57:05,297 WARNING  errbot.plugins.Kudos      send message_type is DEPRECATED. Either pass a user identifier or a room to send.
+2016-04-28 19:57:13,398 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Kudos:give_kudos
+2016-04-28 19:57:13,401 INFO     errbot.plugins.ACLS       Check if give_kudos is admin only command.
+2016-04-28 19:57:13,404 INFO     errbot.errBot             Processing command 'give_kudos' with parameters 'err-chatbot++' from gbin@localhost
+2016-04-28 19:57:13,422 WARNING  errbot.backends.base       /home/vagrant/code/errbot/project/HelloWorld/error/plugins/sijis/err-kudos/kudos.py:38 : msg.type is deprecated and will be removed soon ! Use msg.is_direct or msg.is_group.
+2016-04-28 19:57:13,424 WARNING  errbot.plugins.Kudos      send message_type is DEPRECATED. Either pass a user identifier or a room to send.
+2016-04-28 20:14:42,380 INFO     errbot.errBot             Disconnect callback, deactivating all the plugins.
+2016-04-28 20:14:42,419 INFO     errbot.plugin_manager     Shutdown.
+2016-04-28 20:14:42,422 INFO     errbot.plugin_manager     Bye.
+2016-04-28 20:14:42,432 INFO     errbot.err                Process exiting
+2016-04-28 20:32:55,493 INFO     errbot.specific_plugin_manager storage search paths set([u'/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage'])
+2016-04-28 20:32:55,502 INFO     errbot.specific_plugin_manager Found those plugings available:
+2016-04-28 20:32:55,506 INFO     errbot.specific_plugin_manager 	    Memory  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/memory.py)
+2016-04-28 20:32:55,510 INFO     errbot.specific_plugin_manager 	     Shelf  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/shelf.py)
+2016-04-28 20:32:55,512 INFO     errbot.main               Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2016-04-28 20:32:55,517 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 20:32:55,563 INFO     errbot.specific_plugin_manager backends search paths set([u'/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends'])
+2016-04-28 20:32:55,585 INFO     errbot.specific_plugin_manager Found those plugings available:
+2016-04-28 20:32:55,593 INFO     errbot.specific_plugin_manager 	      Null  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/null.py)
+2016-04-28 20:32:55,594 INFO     errbot.specific_plugin_manager 	      XMPP  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/xmpp.py)
+2016-04-28 20:32:55,595 INFO     errbot.specific_plugin_manager 	   Graphic  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/graphic.py)
+2016-04-28 20:32:55,598 INFO     errbot.specific_plugin_manager 	  Telegram  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/telegram_messenger.py)
+2016-04-28 20:32:55,600 INFO     errbot.specific_plugin_manager 	   Hipchat  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/hipchat.py)
+2016-04-28 20:32:55,601 INFO     errbot.specific_plugin_manager 	      Test  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/test.py)
+2016-04-28 20:32:55,603 INFO     errbot.specific_plugin_manager 	      Text  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/text.py)
+2016-04-28 20:32:55,605 INFO     errbot.specific_plugin_manager 	       IRC  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/irc.py)
+2016-04-28 20:32:55,611 INFO     errbot.specific_plugin_manager 	     Slack  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/slack.py)
+2016-04-28 20:32:55,614 INFO     errbot.main               Found Backend plugin: 'Text'
+						Description: This is the text backend for Err.
+2016-04-28 20:32:55,619 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/null.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 20:32:55,625 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 20:32:55,631 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 20:32:55,638 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 20:32:55,645 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 20:32:55,648 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/test.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 20:32:55,658 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 20:32:55,663 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/slack.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-28 20:32:56,358 INFO     errbot.storage            Init storage of Kudos
+2016-04-28 20:32:56,362 INFO     errbot.storage            Init storage of Help
+2016-04-28 20:32:56,571 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2016-04-28 20:32:56,576 INFO     errbot.storage            Init storage of Webserver
+2016-04-28 20:32:56,581 INFO     errbot.storage            Init storage of ChatRoom
+2016-04-28 20:32:56,591 INFO     errbot.storage            Init storage of VersionChecker
+2016-04-28 20:32:56,596 INFO     errbot.storage            Init storage of Utils
+2016-04-28 20:32:56,622 INFO     errbot.storage            Init storage of Health
+2016-04-28 20:32:56,630 INFO     errbot.storage            Init storage of ACLS
+2016-04-28 20:32:56,638 INFO     errbot.storage            Init storage of Backup
+2016-04-28 20:32:56,647 INFO     errbot.storage            Init storage of Plugins
+2016-04-28 20:32:56,652 INFO     errbot.errBot             Activate internal commands
+2016-04-28 20:32:56,657 INFO     errbot.plugin_manager     Activating all the plugins...
+2016-04-28 20:32:56,662 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2016-04-28 20:32:56,664 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 20:32:56,667 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2016-04-28 20:32:56,670 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2016-04-28 20:32:56,675 INFO     errbot.core_plugins.wsview Webhook routing echo
+2016-04-28 20:32:56,679 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2016-04-28 20:32:56,682 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 20:32:56,691 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2016-04-28 20:32:56,695 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2016-04-28 20:32:56,698 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 20:32:56,706 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2016-04-28 20:32:56,711 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2016-04-28 20:32:56,714 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 20:32:56,727 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2016-04-28 20:32:56,735 INFO     errbot.plugin_manager     Activate plugin: Backup
+2016-04-28 20:32:56,742 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 20:32:56,761 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2016-04-28 20:32:56,767 INFO     errbot.plugin_manager     Activate plugin: Utils
+2016-04-28 20:32:56,771 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 20:32:56,781 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2016-04-28 20:32:56,784 INFO     errbot.plugin_manager     Activate plugin: Kudos
+2016-04-28 20:32:56,792 INFO     errbot.plugin_manager     Activating Kudos with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 20:32:56,797 INFO     errbot.core_plugins.wsview Checking Kudos for webhooks
+2016-04-28 20:32:56,801 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2016-04-28 20:32:56,809 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 20:32:56,818 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2016-04-28 20:32:56,822 INFO     errbot.plugin_manager     Activate plugin: Help
+2016-04-28 20:32:56,825 INFO     errbot.plugin_manager     Activating Help with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 20:32:56,831 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2016-04-28 20:32:56,839 INFO     errbot.plugin_manager     Activate plugin: Health
+2016-04-28 20:32:56,844 INFO     errbot.plugin_manager     Activating Health with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-28 20:32:56,851 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2016-04-28 20:32:56,859 INFO     errbot.errBot             
+2016-04-28 20:32:56,862 INFO     errbot.errBot             Notifying connection to all the plugins...
+2016-04-28 20:32:56,865 INFO     errbot.plugins.ChatRoom   Callback_connect
+2016-04-28 20:32:56,871 INFO     errbot.plugins.ChatRoom   Joining room err@conference.server.tld with username Err
+2016-04-28 20:32:56,876 INFO     errbot.errBot             Plugin activation done.
+2016-04-29 18:33:33,781 INFO     errbot.specific_plugin_manager storage search paths set([u'/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage'])
+2016-04-29 18:33:33,862 INFO     errbot.specific_plugin_manager Found those plugings available:
+2016-04-29 18:33:33,870 INFO     errbot.specific_plugin_manager 	    Memory  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/memory.py)
+2016-04-29 18:33:33,880 INFO     errbot.specific_plugin_manager 	     Shelf  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/shelf.py)
+2016-04-29 18:33:33,886 INFO     errbot.main               Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2016-04-29 18:33:33,903 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/storage/memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-29 18:33:34,203 INFO     errbot.specific_plugin_manager backends search paths set([u'/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends'])
+2016-04-29 18:33:34,257 INFO     errbot.specific_plugin_manager Found those plugings available:
+2016-04-29 18:33:34,259 INFO     errbot.specific_plugin_manager 	      Null  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/null.py)
+2016-04-29 18:33:34,265 INFO     errbot.specific_plugin_manager 	      XMPP  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/xmpp.py)
+2016-04-29 18:33:34,270 INFO     errbot.specific_plugin_manager 	   Graphic  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/graphic.py)
+2016-04-29 18:33:34,272 INFO     errbot.specific_plugin_manager 	  Telegram  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/telegram_messenger.py)
+2016-04-29 18:33:34,282 INFO     errbot.specific_plugin_manager 	   Hipchat  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/hipchat.py)
+2016-04-29 18:33:34,283 INFO     errbot.specific_plugin_manager 	      Test  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/test.py)
+2016-04-29 18:33:34,284 INFO     errbot.specific_plugin_manager 	      Text  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/text.py)
+2016-04-29 18:33:34,285 INFO     errbot.specific_plugin_manager 	       IRC  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/irc.py)
+2016-04-29 18:33:34,286 INFO     errbot.specific_plugin_manager 	     Slack  (/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/slack.py)
+2016-04-29 18:33:34,288 INFO     errbot.main               Found Backend plugin: 'Text'
+						Description: This is the text backend for Err.
+2016-04-29 18:33:34,300 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/null.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-29 18:33:34,305 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-29 18:33:34,308 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-29 18:33:34,316 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-29 18:33:34,321 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-29 18:33:34,325 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/test.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-29 18:33:34,337 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-29 18:33:34,344 WARNING  yapsy                     Plugin candidate '/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/backends/slack.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-04-29 18:33:36,679 INFO     errbot.storage            Init storage of Kudos
+2016-04-29 18:33:36,684 INFO     errbot.storage            Init storage of Help
+2016-04-29 18:33:37,370 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2016-04-29 18:33:37,375 INFO     errbot.storage            Init storage of Webserver
+2016-04-29 18:33:37,402 INFO     errbot.storage            Init storage of ChatRoom
+2016-04-29 18:33:37,411 INFO     errbot.storage            Init storage of VersionChecker
+2016-04-29 18:33:37,420 INFO     errbot.storage            Init storage of Utils
+2016-04-29 18:33:37,458 INFO     errbot.storage            Init storage of Health
+2016-04-29 18:33:37,467 INFO     errbot.storage            Init storage of ACLS
+2016-04-29 18:33:37,477 INFO     errbot.storage            Init storage of Backup
+2016-04-29 18:33:37,486 INFO     errbot.storage            Init storage of Plugins
+2016-04-29 18:33:37,492 INFO     errbot.errBot             Activate internal commands
+2016-04-29 18:33:37,494 INFO     errbot.plugin_manager     Activating all the plugins...
+2016-04-29 18:33:37,500 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2016-04-29 18:33:37,501 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-29 18:33:37,503 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2016-04-29 18:33:37,506 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2016-04-29 18:33:37,510 INFO     errbot.core_plugins.wsview Webhook routing echo
+2016-04-29 18:33:37,513 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2016-04-29 18:33:37,516 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-29 18:33:37,537 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2016-04-29 18:33:37,541 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2016-04-29 18:33:37,545 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-29 18:33:37,559 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2016-04-29 18:33:37,564 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2016-04-29 18:33:37,567 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-29 18:33:37,607 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2016-04-29 18:33:37,610 INFO     errbot.plugin_manager     Activate plugin: Backup
+2016-04-29 18:33:37,615 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-29 18:33:37,623 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2016-04-29 18:33:37,627 INFO     errbot.plugin_manager     Activate plugin: Utils
+2016-04-29 18:33:37,629 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-29 18:33:37,638 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2016-04-29 18:33:37,642 INFO     errbot.plugin_manager     Activate plugin: Kudos
+2016-04-29 18:33:37,645 INFO     errbot.plugin_manager     Activating Kudos with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-29 18:33:37,656 INFO     errbot.core_plugins.wsview Checking Kudos for webhooks
+2016-04-29 18:33:37,659 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2016-04-29 18:33:37,662 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-29 18:33:37,680 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2016-04-29 18:33:37,684 INFO     errbot.plugin_manager     Activate plugin: Help
+2016-04-29 18:33:37,689 INFO     errbot.plugin_manager     Activating Help with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-29 18:33:37,699 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2016-04-29 18:33:37,702 INFO     errbot.plugin_manager     Activate plugin: Health
+2016-04-29 18:33:37,709 INFO     errbot.plugin_manager     Activating Health with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-29 18:33:37,716 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2016-04-29 18:33:37,718 INFO     errbot.errBot             
+2016-04-29 18:33:37,721 INFO     errbot.errBot             Notifying connection to all the plugins...
+2016-04-29 18:33:37,726 INFO     errbot.plugins.ChatRoom   Callback_connect
+2016-04-29 18:33:37,729 INFO     errbot.plugins.ChatRoom   Joining room err@conference.server.tld with username Err
+2016-04-29 18:33:37,731 INFO     errbot.errBot             Plugin activation done.
+2016-04-29 18:33:44,674 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Health:status
+2016-04-29 18:33:44,679 INFO     errbot.plugins.ACLS       Check if status is admin only command.
+2016-04-29 18:33:44,683 INFO     errbot.errBot             Processing command 'status' with parameters '' from gbin@localhost
+2016-04-29 18:44:58,286 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Kudos:kudos
+2016-04-29 18:44:58,289 INFO     errbot.plugins.ACLS       Check if kudos is admin only command.
+2016-04-29 18:44:58,291 INFO     errbot.errBot             Processing command 'kudos' with parameters 'errbot' from gbin@localhost
+2016-04-29 18:44:58,590 WARNING  errbot.backends.base       /home/vagrant/code/errbot/project/HelloWorld/error/plugins/sijis/err-kudos/kudos.py:109 : msg.type is deprecated and will be removed soon ! Use msg.is_direct or msg.is_group.
+2016-04-29 18:44:58,592 WARNING  errbot.plugins.Kudos      send message_type is DEPRECATED. Either pass a user identifier or a room to send.
+2016-04-29 18:45:51,623 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Kudos:give_kudos
+2016-04-29 18:45:51,626 INFO     errbot.plugins.ACLS       Check if give_kudos is admin only command.
+2016-04-29 18:45:51,628 INFO     errbot.errBot             Processing command 'give_kudos' with parameters 'e[D[D[D[D[D[D[D[D[Drbot                     [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D++' from gbin@localhost
+2016-04-29 18:45:51,667 WARNING  errbot.backends.base       /home/vagrant/code/errbot/project/HelloWorld/error/plugins/sijis/err-kudos/kudos.py:38 : msg.type is deprecated and will be removed soon ! Use msg.is_direct or msg.is_group.
+2016-04-29 18:45:51,669 WARNING  errbot.plugins.Kudos      send message_type is DEPRECATED. Either pass a user identifier or a room to send.
+2016-04-29 18:46:13,037 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Kudos:kudos
+2016-04-29 18:46:13,039 INFO     errbot.plugins.ACLS       Check if kudos is admin only command.
+2016-04-29 18:46:13,041 INFO     errbot.errBot             Processing command 'kudos' with parameters 'errbot' from gbin@localhost
+2016-04-29 18:46:13,066 WARNING  errbot.backends.base       /home/vagrant/code/errbot/project/HelloWorld/error/plugins/sijis/err-kudos/kudos.py:109 : msg.type is deprecated and will be removed soon ! Use msg.is_direct or msg.is_group.
+2016-04-29 18:46:13,069 WARNING  errbot.plugins.Kudos      send message_type is DEPRECATED. Either pass a user identifier or a room to send.
+2016-04-29 18:47:57,046 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Utils:whoami
+2016-04-29 18:47:57,049 INFO     errbot.plugins.ACLS       Check if whoami is admin only command.
+2016-04-29 18:47:57,052 INFO     errbot.errBot             Processing command 'whoami' with parameters '' from gbin@localhost
+2016-04-29 18:50:16,496 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Kudos:kudos
+2016-04-29 18:50:16,498 INFO     errbot.plugins.ACLS       Check if kudos is admin only command.
+2016-04-29 18:50:16,502 INFO     errbot.errBot             Processing command 'kudos' with parameters 'err-chatbot' from gbin@localhost
+2016-04-29 18:50:16,530 WARNING  errbot.backends.base       /home/vagrant/code/errbot/project/HelloWorld/error/plugins/sijis/err-kudos/kudos.py:109 : msg.type is deprecated and will be removed soon ! Use msg.is_direct or msg.is_group.
+2016-04-29 18:50:16,532 WARNING  errbot.plugins.Kudos      send message_type is DEPRECATED. Either pass a user identifier or a room to send.
+2016-04-29 18:52:18,873 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Plugins:repos
+2016-04-29 18:52:18,876 INFO     errbot.plugins.ACLS       Check if repos is admin only command.
+2016-04-29 18:52:18,878 INFO     errbot.errBot             Processing command 'repos' with parameters '' from gbin@localhost
+2016-04-29 18:56:53,152 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Plugins:repos_install
+2016-04-29 18:56:53,154 INFO     errbot.plugins.ACLS       Check if repos_install is admin only command.
+2016-04-29 18:56:53,157 INFO     errbot.errBot             Processing command 'repos_install' with parameters 'https://gitbh[D[D[D[Dhub.com/nelsonam/mery;[Dl' from gbin@localhost
+2016-04-29 18:56:53,198 INFO     errbot.repo_manager       Index is too old, update it.
+2016-04-29 18:56:53,387 ERROR    errbot.repo_manager       Could not update from source https://repos.errbot.io/repos.json, keep the index as it is.
+Traceback (most recent call last):
+  File "/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/repo_manager.py", line 107, in index_update
+    src_file = urlopen(url=source, timeout=10)
+  File "/usr/lib/python2.7/urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1222, in https_open
+    return self.do_open(httplib.HTTPSConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 8] _ssl.c:510: EOF occurred in violation of protocol>
+2016-04-29 18:58:42,129 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Plugins:repos_install
+2016-04-29 18:58:42,132 INFO     errbot.plugins.ACLS       Check if repos_install is admin only command.
+2016-04-29 18:58:42,134 INFO     errbot.errBot             Processing command 'repos_install' with parameters 'https://github.com/errbotio/err-helloworld' from gbin@localhost
+2016-04-29 18:58:42,186 INFO     errbot.repo_manager       Index is too old, update it.
+2016-04-29 18:58:42,260 ERROR    errbot.repo_manager       Could not update from source https://repos.errbot.io/repos.json, keep the index as it is.
+Traceback (most recent call last):
+  File "/home/vagrant/code/errbot/local/lib/python2.7/site-packages/errbot/repo_manager.py", line 107, in index_update
+    src_file = urlopen(url=source, timeout=10)
+  File "/usr/lib/python2.7/urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1222, in https_open
+    return self.do_open(httplib.HTTPSConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 8] _ssl.c:510: EOF occurred in violation of protocol>
+2016-04-29 18:58:43,940 INFO     errbot.storage            Init storage of HelloWorld
+2016-04-29 18:58:43,946 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2016-04-29 18:58:44,024 INFO     errbot.plugin_manager     Activating all the plugins...
+2016-04-29 18:58:44,026 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2016-04-29 18:58:44,029 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-29 18:58:44,035 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2016-04-29 18:58:44,038 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2016-04-29 18:58:44,041 INFO     errbot.core_plugins.wsview Webhook routing echo
+2016-04-29 18:58:44,046 INFO     errbot.plugin_manager     Activate plugin: HelloWorld
+2016-04-29 18:58:44,049 INFO     errbot.plugin_manager     Activating HelloWorld with min_err_version = 4.0.3 and max_version = 4.0.3
+2016-04-29 18:58:44,061 INFO     errbot.core_plugins.wsview Checking HelloWorld for webhooks
+2016-04-29 18:58:50,470 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Health:status
+2016-04-29 18:58:50,473 INFO     errbot.plugins.ACLS       Check if status is admin only command.
+2016-04-29 18:58:50,475 INFO     errbot.errBot             Processing command 'status' with parameters '' from gbin@localhost
+2016-04-29 19:00:25,067 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command HelloWorld:hello
+2016-04-29 19:00:25,069 INFO     errbot.plugins.ACLS       Check if hello is admin only command.
+2016-04-29 19:00:25,072 INFO     errbot.errBot             Processing command 'hello' with parameters '' from gbin@localhost
+2016-04-29 19:00:38,868 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command HelloWorld:hello
+2016-04-29 19:00:38,872 INFO     errbot.plugins.ACLS       Check if hello is admin only command.
+2016-04-29 19:00:38,875 INFO     errbot.errBot             Processing command 'hello' with parameters '' from gbin@localhost
+2016-04-29 19:03:48,152 INFO     errbot.plugins.ACLS       Matching ACL {} against username gbin@localhost for command Kudos:kudos
+2016-04-29 19:03:48,154 INFO     errbot.plugins.ACLS       Check if kudos is admin only command.
+2016-04-29 19:03:48,157 INFO     errbot.errBot             Processing command 'kudos' with parameters 'err-chatbot' from gbin@localhost
+2016-04-29 19:03:48,187 WARNING  errbot.backends.base       /home/vagrant/code/errbot/project/HelloWorld/error/plugins/sijis/err-kudos/kudos.py:109 : msg.type is deprecated and will be removed soon ! Use msg.is_direct or msg.is_group.
+2016-04-29 19:03:48,189 WARNING  errbot.plugins.Kudos      send message_type is DEPRECATED. Either pass a user identifier or a room to send.
+2016-04-29 19:46:28,097 INFO     errbot.errBot             Disconnect callback, deactivating all the plugins.
+2016-04-29 19:46:28,170 INFO     errbot.plugin_manager     Shutdown.
+2016-04-29 19:46:28,176 INFO     errbot.plugin_manager     Bye.
+2016-04-29 19:46:28,187 INFO     errbot.err                Process exiting
